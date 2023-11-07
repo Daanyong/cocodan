@@ -22,11 +22,19 @@ function App() {
         <input
           type="text"
           name="inputText"
+          className="inputText"
           placeholder="추측할 단어를 입력하세요"
           value={inputText}
           onChange={handleInputChange}
         />
-        <input type="submit" value="추측" id="guess-btn" onClick={handleAdd} />
+        <button
+          type="submit"
+          className="w-btn w-btn-green"
+          id="guess-btn"
+          onClick={handleAdd}
+        >
+          <span>추측</span>
+        </button>
       </div>
       <div className="table-container">
         <table>
