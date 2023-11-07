@@ -1,7 +1,32 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .guess-wrapper {
   margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+  position: relative;
+}
+
+.table-hr {
+  width: 95%; 
+  position: absolute; 
 }
