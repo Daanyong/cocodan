@@ -59,12 +59,24 @@ function App() {
               <th>유사도</th>
               <th>순위</th>
             </tr>
-            <tr>
-              <td>
-                <hr className="table-hr" />
-              </td>
-            </tr>
           </thead>
+          {items.length > 0 && (
+            <tbody>
+              <tr className="recent">
+                <td>{items.length}</td>
+                <td>{items[items.length - 1]}</td>
+                <td>뜻</td>
+                <td>유사도</td>
+                <td>순위</td>
+              </tr>
+            </tbody>
+          )}
+          <tr>
+            <td>
+              <hr className="table-hr" />
+            </td>
+          </tr>
+
           <tbody>
             {items.map((item, index) => (
               <tr key={index}>
