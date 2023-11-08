@@ -13,6 +13,18 @@ function App() {
     e.preventDefault(); // 폼 제출 x
     setItems([...items, inputText]);
     setInputText("");
+
+    // 전달
+    fetch("", {
+      method: "POST",
+      headers: {
+        Origin: "http://localhost:8080/",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        inputText: inputText.get("inputText"),
+      }),
+    }).then((res) => res.json());
   };
 
   return (
