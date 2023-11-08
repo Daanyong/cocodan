@@ -9,7 +9,8 @@ function App() {
     setInputText(e.target.value);
   };
 
-  const handleAdd = () => {
+  const handleAdd = (e) => {
+    e.preventDefault(); // 폼 제출 x
     setItems([...items, inputText]);
     setInputText("");
   };
@@ -18,24 +19,24 @@ function App() {
     <div className="App">
       <h3>꼬꼬단 - 꼬리의 꼬리를 무는 단어</h3>
       오늘의 꼬꼬단 영단어를 맞혀보세요.
-      <div className="guess-wrapper">
-        <input
-          type="text"
-          name="inputText"
-          className="inputText"
-          placeholder="추측할 단어를 입력하세요"
-          value={inputText}
-          onChange={handleInputChange}
-        />
-        <button
-          type="submit"
-          className="w-btn w-btn-green"
-          id="guess-btn"
-          onClick={handleAdd}
-        >
-          <span>추측</span>
-        </button>
-      </div>
+      <form onSubmit={handleAdd}>
+        <div className="guess-wrapper">
+          <input
+            type="text"
+            name="inputText"
+            className="inputText"
+            placeholder="추측할 단어를 입력하세요"
+            value={inputText}
+            onChange={handleInputChange}
+          />
+          <input
+            type="submit"
+            value="추측"
+            className="w-btn w-btn-green"
+            id="guess-btn"
+          />
+        </div>
+      </form>
       <div className="table-container">
         <table>
           <thead>
