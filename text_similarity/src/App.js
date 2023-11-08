@@ -22,7 +22,7 @@ function App() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        inputText: inputText.get("inputText"),
+        inputText: inputText,
       }),
     }).then((res) => res.json());
   };
