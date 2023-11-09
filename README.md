@@ -14,8 +14,7 @@
 
 ## 구현 사이트
 ### [꼬꼬단](http://shogle.site:10022/)
-
-
+<img width="1280" alt="꼬꼬단 페이" src="https://github.com/Daanyong/greyhoodie/assets/101034775/5ea35207-5a0f-4d95-988e-ffed3702cd05">
 
 ## 상세 안내
 - 사용자는 정답 단어를 추측해가는 과정에서 유의어 및 각 단어의 의미를 알게 되며, 이것은 사용자의 영단어 학습에 도움을 줄 수 있습니다.
