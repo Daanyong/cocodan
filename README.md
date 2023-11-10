@@ -11,7 +11,7 @@
 
 ## 구현 사이트
 ### [꼬꼬단](http://shogle.site:10022/)
-<img width="1280" alt="꼬꼬단 페이지" src="https://github.com/Daanyong/greyhoodie/assets/101034775/5ea35207-5a0f-4d95-988e-ffed3702cd05">
+<img width="1280" alt="꼬꼬단 페이지" src="https://github.com/Daanyong/cocodan/assets/101034775/17bab784-99eb-4f39-84ae-82c321a71499">
 
 ## 상세 안내
 - [Semantle](https://semantle.com)을 참고하였습니다.
