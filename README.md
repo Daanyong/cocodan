@@ -16,6 +16,9 @@
 ### [꼬꼬단](http://shogle.site:10022/)
 <img width="1280" alt="꼬꼬단 페이지" src="https://github.com/Daanyong/cocodan/assets/101034775/17bab784-99eb-4f39-84ae-82c321a71499">
 
+## Word 임베딩
+![word2vec시각화](https://github.com/Daanyong/cocodan/assets/101037541/5fbf7a4f-80d3-4d4b-ace1-75066103492c)
+
 ## 상세 안내
 - [Semantle](https://semantle.com)을 참고하였습니다.
 - 사용자는 정답 단어를 추측해가는 과정에서 유의어 및 각 단어의 의미를 알게 되며, 이것은 사용자의 영단어 학습에 도움을 줄 수 있습니다.
